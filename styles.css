@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Asap:400,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +8,7 @@
 }
 body {
   background: #f08a5d;
+  font-family: 'Press Start 2P';
 }
 header {
   background: white;
@@ -14,7 +17,7 @@ header {
 header > h1 {
   text-align: center;
   color: #25272e;
-  font-family: Asap, sans-serif;
+  font-family: 'Press Start 2P',Asap, sans-serif;
 }
 .Scoreboard {
   border: 3px solid white;
@@ -29,8 +32,8 @@ header > h1 {
   position: relative;
 }
 .badge {
-  font-family: Asap, sans-serif;
-  font-size: 14px;
+  font-family: 'Press Start 2P',Asap, sans-serif;
+  font-size: 12px;
   color: white;
   background: #e25840;
   padding: 2px 10px;
@@ -50,8 +53,10 @@ header > h1 {
   color: white;
 }
 .Result > p {
-  font-family: Asap, sans-serif;
+  font-family: 'Odibee Sans',Asap, sans-serif;
   font-weight: bold;
+  letter-spacing: 8px;
+  font-size: 70px;
   text-align: center;
 }
 .choices {
@@ -71,10 +76,11 @@ header > h1 {
   background: #24272e;
 }
 #action-message {
-  font-family: Asap, serif;
+  font-family: 'Odibee Sans',Asap, serif;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
+  letter-spacing: 3px;
   color: white;
   margin-top: 20px;
 }

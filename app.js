@@ -26,9 +26,9 @@ function win(userChoice,Computerchoice)
     Userscore++;
     Userscore_span.innerHTML=Userscore;
     Computerscore_span.innerHTML=Computerscore;
-    const UsersmallWord="You".fontsize(3).sub();
-    const ComputersmallWorld="Comp".fontsize(3).sub()
-    const YouWin="You Win".fontsize(6).fontcolor("light green").sup()
+    const UsersmallWord="You".fontsize(5).sub();
+    const ComputersmallWorld="Comp".fontsize(5).sub()
+    const YouWin="You Win".fontsize(25).fontcolor("light green").sup()
     const user_choice_div=document.getElementById(userChoice);
     Result_div.innerHTML=  ConverttoWord(userChoice) + " " + UsersmallWord + " beats " 
     + ConverttoWord(Computerchoice) + " "+  ComputersmallWorld + YouWin + "  :) ";
@@ -44,9 +44,9 @@ function lose(userChoice,Computerchoice)
     Computerscore++;
     Userscore_span.innerHTML=Userscore
     Computerscore_span.innerHTML=Computerscore;
-    const UsersmallWord="You".fontsize(3).sub();
-    const ComputersmallWorld="Comp".fontsize(3).sub();
-    const ComputerWin="You Lose".fontsize(6).fontcolor("Red").sup();
+    const UsersmallWord="You".fontsize(5).sub();
+    const ComputersmallWorld="Comp".fontsize(5).sub();
+    const ComputerWin="You Lose".fontsize(25).fontcolor("Red").sup();
     Result_div.innerHTML= ConverttoWord(Computerchoice) + " " + ComputersmallWorld +
     " beats " + ConverttoWord(userChoice) + " " + UsersmallWord + ComputerWin + " :(( "; 
     const computer_choice_div=document.getElementById(Computerchoice);
@@ -59,9 +59,9 @@ function lose(userChoice,Computerchoice)
 }
 function draw(userChoice,Computerchoice)
 {
-    const UsersmallWord="You".fontsize(3).sub();
-    const ComputersmallWorld="Comp".fontsize(3).sub();
-    const Draw="It's a Draw".fontsize(6).fontcolor("grey").sup();
+    const UsersmallWord="You".fontsize(5).sub();
+    const ComputersmallWorld="Comp".fontsize(5).sub();
+    const Draw="It's a Draw".fontsize(25).fontcolor("grey").sup();
     Result_div.innerHTML=ConverttoWord(userChoice) + " " +  UsersmallWord + "Equals" +
     ConverttoWord(Computerchoice) + " " + ComputersmallWorld + Draw + " : // ";
 
