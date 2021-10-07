@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Asap:400,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Press+Start+2P&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +8,7 @@
 }
 body {
   background: #f08a5d;
+  font-family: 'Press Start 2P';
 }
 header {
   background: white;
@@ -14,7 +17,9 @@ header {
 header > h1 {
   text-align: center;
   color: #25272e;
-  font-family: Asap, sans-serif;
+  font-size: 60px;
+  font-family: 'Odibee Sans';
+  letter-spacing: 0.5rem;
 }
 .Scoreboard {
   border: 3px solid white;
@@ -46,13 +51,14 @@ header > h1 {
   right: -30px;
 }
 .Result {
-  font-size: 40px;
+  font-size: 80px;
   color: white;
 }
 .Result > p {
-  font-family: Asap, sans-serif;
+  font-family: 'Odibee Sans';
   font-weight: bold;
   text-align: center;
+  letter-spacing: 0.5rem;
 }
 .choices {
   margin-top: 50px;
